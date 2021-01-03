@@ -9,3 +9,11 @@ let novoObjeto = {} //Object
 
 
 console.log(nome, idade, peso, masculino);
+
+//String Javascript 
+let niver = "Diego vai fazer "+idade+" anos no dia 11 de janeiro";
+console.log(niver);
+
+//Template string ES6
+let aniversario = `Diego vai fazer ${idade} anos no dia 11 de janeiro`;
+console.log(aniversario);
